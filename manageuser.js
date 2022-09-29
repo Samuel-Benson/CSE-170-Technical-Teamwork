@@ -48,7 +48,7 @@ function checkexpiredtoken(token){
 
 function userlogin(){
     setuserpassword();
-    setusername();
+    setphonenumber();
     $.ajax({
         type: 'POST',
         url: 'https://dev.stedi.me/login',
